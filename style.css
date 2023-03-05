@@ -1,0 +1,371 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body{
+    width: 600px;
+    height:  1040px;
+    padding-top: 0px;
+}
+
+.container{
+    width: 100%;
+    height:  100%;
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 600px;
+    height: 1040px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header{
+    width: 100%;
+    height: 25%;
+    margin-top: -80px;
+    background-image: url(luke.jpg);
+    background-position: -60% 35%;
+    clip-path: polygon(32% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 0 30%, 26% 30%);
+    
+}
+
+.personajes{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(115,138,149);
+    display: flex;
+    align-items: center;
+    padding-left: 24%;
+    margin-left: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.name_header{
+    margin-top: 7%;
+}
+
+.name{
+    color: rgb(67, 163, 93);
+    font-weight: bolder;
+    font-size: 64px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.surname{
+    color: white;
+    font-size: 44px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.p1{
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;;
+}
+
+.logo{
+    width: 200px;
+    height: 10%;
+    margin-top: 10px;
+    background-image: url(Star_Wars_Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.list{
+    width: 100%;
+    height: 2%;  
+}
+
+.retro_line{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(67, 163, 93);
+    margin-top: 10px;
+    display: flex;
+}
+
+.S_list_1{
+    width: 20%;
+    height: 800%;
+    margin-top: -6px;
+    margin-left: 25px;
+    clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+.S_list_2{
+    width: 22%;
+    height: 800%;
+    margin-top: -6px;
+    clip-path: polygon(21% 0, 100% 0, 79% 100%, 0% 100%);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+.S_list_3{
+    width: 22%;
+    height: 800%;
+    margin-top: -6px;
+    clip-path: polygon(21% 0, 100% 0, 79% 100%, 0% 100%);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+.S_list_4{
+    width: 35%;
+    height: 800%;
+    margin-top: -6px;
+    margin-right: 25px;
+    clip-path: polygon(13% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+.alleanza_ribelle{
+    width: 45px;
+    height: 45px;
+    margin: -7px 0px 0px 140px;
+    position: absolute;
+    background-image: url(alleanza_ribelle.png);
+    background-size: cover;
+}
+
+.list_1{
+    width: 100%;
+    height: 50%;
+    margin-left: 25px;
+    color: rgb(67, 163, 93);
+    font-weight: bold;
+    font-size: small;
+}
+.list_2{
+    width: 100%;
+    height: 50%;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.p2{
+    margin-top: 0px;
+}
+
+.text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.text1{
+    width: 50%;
+    height: auto;
+    padding: 2% 2% 0% 2%;
+    background-color: rgb(67, 163, 93);
+    overflow-wrap: break-word;
+    color: white;
+    text-align: center;
+}
+
+.text2{
+    width: 50%;
+    height: auto;
+    padding: 2% 2% 0% 2%;
+    background-color: rgb(67, 163, 93);
+    color: white;
+    text-align: center;
+}
+
+.velo_en{
+    width: 16%;
+    height: 30px;
+    margin: -10px 0px 10px 0px;
+    padding: 8px 0px 0px 60px;
+    color: white;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 86% 100%, 0% 100%);
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin: -10px 0px 0px 0px;
+    position: relative;
+}
+
+.film{
+    width: 50%;
+    height: 100%;
+    padding: 20px 15px 24px 0px;
+    margin: -15px 0px 0px 0px;
+    background-color: rgb(115,138,149);
+    z-index: 0;
+}
+
+
+.film_u{
+    width: 100%;
+    height: 25%;
+    margin: 0% 0% 0% -4%;
+    padding: 0% 0% 0% 0%;
+    z-index: 0;
+    display: flex;
+}
+
+.pic1{
+    width: 60%;
+    height: 75%;
+    margin: 0% 2% 0% 15%;
+    padding: 0% 0% 0% 0%;
+    background-image: url(film1.jpg);
+    background-size: cover;
+}
+
+.pic2{
+    width: 60%;
+    height: 75%;
+    margin: 0% 2% 0% 15%;
+    padding: 0% 0% 0% 0%;
+    background-image: url(film2.jpeg);
+    background-size: cover;
+}
+
+.pic3{
+    width: 60%;
+    height: 75%;
+    margin: 0% 2% 0% 15%;
+    padding: 0% 0% 0% 0%;
+    background-image: url(film3.jpg);
+    background-size: cover;
+}
+
+.pic4{
+    width: 60%;
+    height: 75%;
+    margin: 0% 2% 0% 15%;
+    padding: 0% 0% 0% 0%;
+    background-image: url(film4.jpg);
+    background-size: cover;
+}
+
+.descr{
+    width: 25%;
+    height: 100%;
+    margin: -5% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner{
+    width: 96%;
+    height: 22%;
+    margin: 48% 0%;
+    padding: 0% 4%;
+    background-color: black;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    font-family: 'Oswald', sans-serif;
+}
+
+.p_font{
+    padding: -10px 0px 10px 5px;
+    font-size: 11px;
+    color: white;
+}
+
+.banner_font{
+    padding: 0px 0px 0px 2px; 
+    font-size: 11px;
+}
+
+.Luke{
+    width: 40%;
+    height: 500px;
+    margin: -10% 0% 0% 10%;
+    padding: 0%;
+    background-image: url(luke_skywalker.png); 
+    background-size: cover;
+    position: relative;
+    display: inline;
+    animation: background-image-change-2x 3s infinite alternate-reverse both;
+}
+
+.dhead{
+    width: 40%;
+    height: 20%;
+    padding: 0% 2% 2% 2%;
+    margin: 25% 0% 0% -15%;
+    border: solid 1px rgb(67, 163, 93);
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font_dhead{
+    font-size: 11px;
+    color: white;
+}
+
+.dhand{
+    width: 35%;
+    height: auto;
+    padding: 0% 0% 0% 0%;
+    margin: 10% 0% 0% -10%;
+    background-color: rgb(67, 163, 93);
+    font-family: 'Oswald', sans-serif;
+    clip-path: polygon(100% 0, 100% 75%, 80% 100%, 0 100%, 0 0);
+
+
+}
+
+.font_dhand{
+    padding: 6px 5px 0px 6px;
+    font-size: 11px;
+    background-color: rgb(67, 163, 93);
+    color: white;
+    
+}
+
+.dfoot{
+    width: 80px;
+    height: auto;
+    padding: 0% 2% 0% 2%;
+    margin: 25% 0% 0% 30%;
+    border: solid 1px rgb(67, 163, 93);
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font_dfoot{
+    padding: -10px 5px 0px 5px;
+    font-size: 10px;
+    color: white;
+}
+
+/*.Luke:active{
+    animation: background-image-change-2x 3s infinite alternate-reverse both;
+}*/
+
+@keyframes background-image-change-2x {
+    0% {
+        background-image: url(luke_skywalker2.png);
+    }
+    100% {
+        background-image: url(luke_skywalker.png);
+    }
+  }
+  
